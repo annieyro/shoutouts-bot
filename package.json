@@ -1,0 +1,18 @@
+{
+  "name": "shoutouts-bot",
+  "version": "1.0.0",
+  "description": "Slackbot to give anonymous shoutouts to folks you work with and appreciate",
+  "main": "index.js",
+  "repository": "https://github.com/annieyro/shoutouts-bot.git",
+  "author": "annieyro <anniero@berkeley.edu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/web-api": "^5.13.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
